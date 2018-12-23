@@ -27,4 +27,4 @@ register - bite od 11:9 postavimo na 000, zato je max. napetost ± 6.144V. (glej
 
 
 
-Komentar: potrebno je bilo popraviti saj sta pina ia komuinikacijo i2c PB9 in PB8. napaka je bila tudi pri navodilih saj je bilo narobe napisano uint16_t, napisano je bilo uinit16_t
+Komentar: potrebno je bilo popraviti saj sta pina ia komuinikacijo i2c PB9 in PB8. napaka je bila tudi pri navodilih saj je bilo narobe napisano uint16_t, napisano je bilo uinit16_t. Problem se je pojavil tudi pri branju podatkov v STMstudio
