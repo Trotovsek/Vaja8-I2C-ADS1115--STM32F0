@@ -24,3 +24,7 @@ b) Pretvorite binarni naslov 1001000 v šastnajstiškega: 48 HEX.
 e) ADS pretvorniku moramo programsko nastaviti vhodno ojačanje (programmable gain amplifier
 configuration). Ker so naše vrednosti na potenciometru do 5 V, moramo ustrezno postaviti 16 bitni
 register - bite od 11:9 postavimo na 000, zato je max. napetost ± 6.144V. (glej PDF, str. 19).
+
+
+
+Komentar: potrebno je bilo popraviti saj sta pina ia komuinikacijo i2c PB9 in PB8. napaka je bila tudi pri navodilih saj je bilo narobe napisano uint16_t, napisano je bilo uinit16_t
