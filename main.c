@@ -288,7 +288,7 @@ void _Error_Handler(char *file, int line)
   while(1)
   {
   }
-  /* USER CODE END Error_Handler_Debug */
+  /* USER CODE END Friskovec */
 }
 
 #ifdef  USE_FULL_ASSERT
